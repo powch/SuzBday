@@ -3,19 +3,31 @@ var med = $('#med');
 var high = $('#high');
 var extra = $('#extra');
 
-var itemObj = {
-    price: {
-        low: {
+var itemObj = [
+    {
+        category: low,
+        
+    }
+]
 
-        },
-        med: {
+var funcs = {
+    cardGen: function() {
+        var newCard = $('<div>');
+        newCard.addClass('card border-primary text-center mb-3');
 
-        }, 
-        high: {
+        var newHeader = $('<h3>');
+        newHeader.addClass('card-header');
+        newHeader.attr('id', 'header');
 
-        },
-        extra: {
-            
-        }
+        var newBody = $('<div>');
+        newBody.addClass('card-body');
+
+        var newPrice = $('<h5>');
+        newPrice.addClass('card-title');
+        newPrice.attr('id', 'price');
+
+        var newDetails = $('<h6>');
+        newDetails.addClass('card-subtitle text-muted');
+        newDetails.attr('id', 'details');
     }
 }
