@@ -2,3 +2,11 @@
     height: 200px;
     width: 200px;
 }
+
+.nav-link {
+    font-size: 1.25rem;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
