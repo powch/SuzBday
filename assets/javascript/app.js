@@ -16,7 +16,7 @@ var itemObj = [
         category: 'high',
         header: 'Vans Slip-ons',
         price: '$60',
-        title: 'Sand Dollar color\nSize 8',
+        title: 'Sand Dollar color - Size 8',
         img: 'https://images.vans.com/is/image/Vans/8F7U7I-HERO?$583x583$',
         url: 'https://www.vans.com/shop/lurex-gore-slip-on-sand-dollar#hero=0'
     },
@@ -32,9 +32,25 @@ var itemObj = [
         category: 'extra',
         header: 'DevaDryer and Defuser',
         price: '$160',
-        title: 'Dryer for curly-ass hair',
+        title: 'Dryer for curly hair',
         img: 'https://scdn.devacurl.com/media/product/057/devadryer-and-devafuser-34a.png',
         url: 'https://www.devacurl.com/devadryer-and-devafuser.html'
+    },
+    {
+        category: 'med',
+        header: 'Starter Kit for Curly Hair',
+        price: '$42',
+        title: 'Kit of stuff for curly hair',
+        img: 'https://scdn.devacurl.com/media/product/69a/how-to-quit-shampoo-for-effortless-waves-8ce.png',
+        url: 'https://www.devacurl.com/how-to-quit-shampoo-for-effortless-waves.html'
+    },
+    {
+        category: 'low',
+        header: 'Small Kit for Curly Hair',
+        price: '$12',
+        title: 'Smaller kit of stuff for curly hair',
+        img: 'https://scdn.devacurl.com/media/product/b1d/wavy-mini-transformation-kit-e09.png',
+        url: 'https://www.devacurl.com/wavy-mini-transformation-kit.html'
     }
 ]
 

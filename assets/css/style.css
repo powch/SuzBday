@@ -10,3 +10,7 @@
 .navbar-brand {
     font-size: 1.5rem;
 }
+
+.card {
+    cursor: pointer;
+}
