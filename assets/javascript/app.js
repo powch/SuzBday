@@ -83,6 +83,22 @@ var itemObj = [
         title: 'Good starter sewing machine.',
         img: 'https://images-na.ssl-images-amazon.com/images/I/71UT%2BEpN-WL._SX425_.jpg',
         url: 'https://www.amazon.com/Brother-Feature-Rich-Stitches-Auto-Size-Buttonholes/dp/B000JQM1DE?psc=1&SubscriptionId=AKIAINYWQL7SPW7D7JCA&tag=aboutcom02thespruce-20&linkCode=sp1&camp=2025&creative=165953&creativeASIN=B000JQM1DE&ascsubtag=4137153%7Cgoogle.com%7C%7C%7C49%7C1%7C'
+    },
+    {
+        category: 'low',
+        header: 'Darn Tough Socks',
+        price: '$22',
+        title: 'Hiker Micro Crew Cushion',
+        img: 'https://cdn.shopify.com/s/files/1/1354/8177/products/1903_Slate_4167208f-27ee-4214-bba7-bca4e9d05e9f_796x1428.png?v=1523272279',
+        url: 'https://darntough.com/collections/women-s-hiker-collection/products/solid-micro-crew-cushion?variant=30180801607'
+    },
+    {
+        category: 'med',
+        header: 'Tote Shoulder Bag',
+        price: '$40',
+        title: 'Navy color',
+        img: 'https://images-na.ssl-images-amazon.com/images/I/61xCvEc0mEL._UY695_.jpg',
+        url: 'https://www.amazon.com/YALUXE-Womens-Oxford-Capacity-Shoulder/dp/B0721B5JVV/ref=sr_1_9?ie=UTF8&qid=1533517155&sr=8-9&keywords=tote%2Bbag&dpID=413hW6yDjML&preST=_SY395_QL70_&dpSrc=srch&th=1'
     }
 ]
 
