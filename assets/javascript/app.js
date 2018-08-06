@@ -75,13 +75,21 @@ var itemObj = [
         title: 'Trainers for the arch support concious.',
         img: 'https://cdn-imagizer.kurufootwear.com/media/catalog/product/cache/image/1000x1000/e9c3970ab036de70892d86c6d221abfe/2/0/202213-ffffff.jpg',
         url: 'https://www.kurufootwear.com/carrera-womens.html?color=Boysenberry-JetBlack-DarkTeal'
+    },
+    {
+        category: 'extra',
+        header: 'Brother CS6000i',
+        price: '$150',
+        title: 'Good starter sewing machine.',
+        img: 'https://images-na.ssl-images-amazon.com/images/I/71UT%2BEpN-WL._SX425_.jpg',
+        url: 'https://www.amazon.com/Brother-Feature-Rich-Stitches-Auto-Size-Buttonholes/dp/B000JQM1DE?psc=1&SubscriptionId=AKIAINYWQL7SPW7D7JCA&tag=aboutcom02thespruce-20&linkCode=sp1&camp=2025&creative=165953&creativeASIN=B000JQM1DE&ascsubtag=4137153%7Cgoogle.com%7C%7C%7C49%7C1%7C'
     }
 ]
 
 var funcs = {
     cardGen: function () {
         itemObj.forEach(function (obj) {
-            console.log(obj);
+            
             var newCard = $('<div>');
             newCard.addClass('card border-primary text-center mb-3');
             newCard.attr('onclick', `window.open('${obj.url}', 'mywindow');`);
