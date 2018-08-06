@@ -8,8 +8,8 @@ var itemObj = [
         category: 'low',
         header: 'Envelope Card Wallet',
         price: '$5',
-        title: 'Silver Metallic Color',
-        img: 'https://oldnavy.gap.com/webcontent/0015/692/785/cn15692785.jpg',
+        title: 'Blush Color',
+        img: 'https://oldnavy.gap.com/webcontent/0015/700/776/cn15700776.jpg',
         url: 'https://oldnavy.gap.com/browse/product.do?pid=291253062&vid=1&pwa=true'
     },
     {
@@ -51,12 +51,36 @@ var itemObj = [
         title: 'Smaller kit of stuff for curly hair',
         img: 'https://scdn.devacurl.com/media/product/b1d/wavy-mini-transformation-kit-e09.png',
         url: 'https://www.devacurl.com/wavy-mini-transformation-kit.html'
+    },
+    {
+        category: 'extra',
+        header: 'Maris Wedge',
+        price: '$120',
+        title: 'Wedge heel for the arch support concious.',
+        img: 'https://www.vionicshoes.com/media/catalog/product/cache/14/image/1000x1000/9df78eab33525d08d6e5fb8d27136e95/m/a/maris_pewter_silo_1.jpg',
+        url: 'https://www.vionicshoes.com/women/wedges/maris-wedge.html?76=47'
+    },
+    {
+        category: 'extra',
+        header: 'Gramercy Ballet Flat',
+        price: '$120',
+        title: 'Flats for the arch support concious.',
+        img: 'https://www.vionicshoes.com/media/catalog/product/cache/14/image/1000x1000/9df78eab33525d08d6e5fb8d27136e95/g/r/gramercy_blacksuede_silo.jpg',
+        url: 'https://www.vionicshoes.com/women/flats/gramercy-ballet-flat.html?76=627'
+    },
+    {
+        category: 'extra',
+        header: 'Carrera Trainer Shoe',
+        price: '$125',
+        title: 'Trainers for the arch support concious.',
+        img: 'https://cdn-imagizer.kurufootwear.com/media/catalog/product/cache/image/1000x1000/e9c3970ab036de70892d86c6d221abfe/2/0/202213-ffffff.jpg',
+        url: 'https://www.kurufootwear.com/carrera-womens.html?color=Boysenberry-JetBlack-DarkTeal'
     }
 ]
 
 var funcs = {
-    cardGen: function() {
-        itemObj.forEach(function(obj) {
+    cardGen: function () {
+        itemObj.forEach(function (obj) {
             console.log(obj);
             var newCard = $('<div>');
             newCard.addClass('card border-primary text-center mb-3');
@@ -95,3 +119,9 @@ var funcs = {
 }
 
 funcs.cardGen();
+
+$('.nav-item').click(function () {
+    if ($('.navbar-toggler').css('display') !== 'none') {
+        $('.navbar-toggler').trigger('click');
+    }
+});
